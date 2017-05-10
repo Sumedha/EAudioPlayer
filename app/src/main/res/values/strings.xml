@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">E Audio Player</string>
+    <string name="playlists">Playlists</string>
+    <string name="artists">Artists</string>
+    <string name="albums">Albums</string>
+    <string name="songs">Songs</string>
+    <string name="genres">Genres</string>
+    <string name="title_activity_eaudio_player">EAudioPlayer</string>
+    <string name="endless">Endless</string>
+    <string name="by_zara_larsson">By Zara Larsson</string>
+    <string name="shape_of_you">Shape Of You</string>
+    <string name="by_ed_sheeran">By Ed Sheeran</string>
+    <string name="shape_of_you_ed_sheeran">Shape Of You - Ed Sheeran</string>
+</resources>
