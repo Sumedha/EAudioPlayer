@@ -1,9 +1,11 @@
 package com.example.android.eaudioplayer;
 
-import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 
-public class Playlists extends Activity {
+public class Playlists extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -13,5 +15,8 @@ public class Playlists extends Activity {
         setContentView(R.layout.activity_playlists);
     }
 
-
+    public void openEAudioPlayer(View view) {
+        Intent eaudioplayer = new Intent(this, EAudioPlayer.class);
+        startActivity(eaudioplayer);
+    }
 }

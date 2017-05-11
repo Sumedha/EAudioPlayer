@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/materialbg"
     tools:context="com.example.android.eaudioplayer.MainActivity">
 
     <LinearLayout
@@ -14,45 +15,45 @@
             android:id="@+id/musicPlaylists"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="openPlaylists"
             android:padding="20dp"
             android:text="@string/playlists"
-            android:textSize="30sp"
-            android:onClick="openPlaylists"/>
+            android:textSize="30sp" />
 
         <TextView
             android:id="@+id/musicArtists"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="openArtists"
             android:padding="20dp"
             android:text="@string/artists"
-            android:textSize="30sp"
-            android:onClick="openArtists"/>
+            android:textSize="30sp" />
 
         <TextView
             android:id="@+id/musicAlbums"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="openAlbums"
             android:padding="20dp"
             android:text="@string/albums"
-            android:textSize="30sp"
-            android:onClick="openAlbums"/>
+            android:textSize="30sp" />
 
         <TextView
             android:id="@+id/musicSongs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="openSongs"
             android:padding="20dp"
             android:text="@string/songs"
-            android:textSize="30sp"
-            android:onClick="openSongs"/>
+            android:textSize="30sp" />
 
         <TextView
             android:id="@+id/musicGenres"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="openGenres"
             android:padding="20dp"
             android:text="@string/genres"
-            android:textSize="30sp"
-            android:onClick="openGenres"/>
+            android:textSize="30sp" />
     </LinearLayout>
 </ScrollView>
