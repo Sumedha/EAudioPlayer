@@ -41,10 +41,14 @@ public class EAudioPlayer extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         //set the layout of the Activity
         setContentView(R.layout.activity_eaudio_player);
+
         //initialize views
         initializeViews();
+
+
     }
 
     public void initializeViews() {

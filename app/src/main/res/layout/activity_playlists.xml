@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/materialbg"
+    android:orientation="vertical"
     tools:context="com.example.android.eaudioplayer.Playlists">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar5"
+        android:layout_width="fill_parent"
+        android:layout_height="58dp"
+        android:background="@color/accent"
+        android:minHeight="?attr/actionBarSize"
+        app:titleTextColor="@color/toolbarText">
+
+    </android.support.v7.widget.Toolbar>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,19 +24,9 @@
         android:orientation="vertical"
         android:padding="10dp">
 
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#FFFFFF"
-            android:padding="10dp"
-            android:text="Auto Playlists"
-            android:textSize="16sp"
-            android:textStyle="bold" />
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
             android:orientation="horizontal">
 
             <TextView
@@ -57,11 +59,10 @@
                 android:textColor="#FFFFFF"
                 android:textSize="15sp" />
 
-
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:orientation="horizontal">
@@ -95,11 +96,8 @@
                 android:textColor="#FFFFFF"
                 android:textSize="15sp" />
 
-
         </LinearLayout>
-
 
     </LinearLayout>
 
-
-</ScrollView>
+</LinearLayout>

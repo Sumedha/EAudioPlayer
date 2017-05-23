@@ -5,6 +5,7 @@
     <string name="albums">Albums</string>
     <string name="songs">Songs</string>
     <string name="genres">Genres</string>
+    <string name="buyMusic">Buy Music</string>
     <string name="title_activity_eaudio_player">EAudioPlayer</string>
     <string name="endless">Endless</string>
     <string name="by_zara_larsson">By Zara Larsson</string>
@@ -15,4 +16,9 @@
     <string name="absolute_mega_mix_collection">Absolute Mega Mix Collection</string>
     <string name="rock_favourites">Rock Favourites</string>
     <string name="swedish_collection">Swedish Collection</string>
+    <string name="title_activity_buy_music">Buy Music</string>
+    <string name="ed_sheeran">Ed Sheeran</string>
+    <string name="pay_with_a_card">Pay with a card</string>
+    <string name="pay_with_simplify">Pay with Simplify</string>
+    <string name="confirm">Confirm</string>
 </resources>

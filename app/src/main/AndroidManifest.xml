@@ -10,6 +10,28 @@
         android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <!-- Add your live Simplify public key here -->
+        <meta-data
+            android:name="com.simplify.android.sdk.apiKey"
+            android:value="lvpb_MmNlNjE3MjctNmRmYy00NmY4LWI0MzEtNTVhY2RhYjU3Njcx" />
+
+        <!-- Add your Android Pay public key here -->
+        <!-- To retrieve your Android Pay public key, visit your account settings at -->
+        <!-- https://www.simplify.com/commerce/app#/account/profile -->
+        <meta-data
+            android:name="com.simplify.android.sdk.androidPayPublicKey"
+            android:value="BOjsfmPb3gOPnIhKOfyKH3Kxa8XX7nzynLbRkL30oA6z2gFfKPLjCeqTmyjPe41PhJ9Hh64HP/BukqUn4DGNV3Q=" />
+
+        <!-- Enables the Android Pay API -->
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -34,8 +56,16 @@
             android:label="@string/genres" />
         <activity
             android:name=".EAudioPlayer"
-            android:label="@string/title_activity_eaudio_player"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:label="@string/title_activity_eaudio_player" />
+        <activity
+            android:name=".BuyMusicActivity"
+            android:label="Buy Music" />
+        <activity
+            android:name=".ConfirmationActivity"
+            android:label="Confirmation" />
+        <activity
+            android:name=".ThankYouActivity"
+            android:label="Thank you!" />
     </application>
 
 </manifest>

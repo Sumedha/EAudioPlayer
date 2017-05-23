@@ -1,59 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/materialbg"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
     tools:context="com.example.android.eaudioplayer.MainActivity">
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <TextView
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar1"
+            android:layout_width="fill_parent"
+            android:layout_height="58dp"
+            android:background="@color/accent"
+            android:minHeight="?attr/actionBarSize"
+            app:titleTextColor="@color/toolbarText">
+
+        </android.support.v7.widget.Toolbar>
+
+        <Button
             android:id="@+id/musicPlaylists"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="openPlaylists"
-            android:padding="20dp"
-            android:text="@string/playlists"
-            android:textSize="30sp" />
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimary"
+            android:onClick="openPlaylist"
+            android:text="Playlists">
 
-        <TextView
+        </Button>
+
+        <Button
             android:id="@+id/musicArtists"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimary"
             android:onClick="openArtists"
-            android:padding="20dp"
-            android:text="@string/artists"
-            android:textSize="30sp" />
+            android:text="Artists">
 
-        <TextView
+        </Button>
+
+        <Button
             android:id="@+id/musicAlbums"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimary"
             android:onClick="openAlbums"
-            android:padding="20dp"
-            android:text="@string/albums"
-            android:textSize="30sp" />
+            android:text="Albums">
 
-        <TextView
+        </Button>
+
+        <Button
             android:id="@+id/musicSongs"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimary"
             android:onClick="openSongs"
-            android:padding="20dp"
-            android:text="@string/songs"
-            android:textSize="30sp" />
+            android:text="Songs">
 
-        <TextView
+        </Button>
+
+        <Button
             android:id="@+id/musicGenres"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimary"
             android:onClick="openGenres"
-            android:padding="20dp"
-            android:text="@string/genres"
-            android:textSize="30sp" />
+            android:text="Genres">
+
+        </Button>
+
+        <Button
+            android:id="@+id/musicBuy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimary"
+            android:onClick="openBuyMusic"
+            android:text="Buy EAudio Package">
+
+        </Button>
+
     </LinearLayout>
 </ScrollView>

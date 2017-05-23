@@ -38,7 +38,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@android:drawable/ic_input_add"
-                android:backgroundTint="@color/colorAccent"/>
+                android:backgroundTint="@color/colorAccent" />
 
         </LinearLayout>
 
@@ -127,9 +127,9 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
-                android:onClick="rewind"
                 android:background="@android:drawable/ic_media_rew"
-                android:backgroundTint="#FFFFFF" />
+                android:backgroundTint="#FFFFFF"
+                android:onClick="rewind" />
 
             <ImageButton
                 android:id="@+id/media_pause"
@@ -139,9 +139,9 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
-                android:onClick="pause"
                 android:background="@android:drawable/ic_media_pause"
-                android:backgroundTint="#FFFFFF" />
+                android:backgroundTint="#FFFFFF"
+                android:onClick="pause" />
 
             <ImageButton
                 android:id="@+id/media_play"
@@ -151,9 +151,9 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
-                android:onClick="play"
                 android:background="@android:drawable/ic_media_play"
-                android:backgroundTint="#FFFFFF" />
+                android:backgroundTint="#FFFFFF"
+                android:onClick="play" />
 
             <ImageButton
                 android:id="@+id/media_ff"
@@ -163,8 +163,8 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
-                android:onClick="forward"
-                android:background="@android:drawable/ic_media_ff" />
+                android:background="@android:drawable/ic_media_ff"
+                android:onClick="forward" />
 
             <ImageButton
                 android:id="@+id/playerexit"
@@ -174,9 +174,9 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="15dp"
                 android:layout_weight="1"
-                android:onClick="exit"
                 android:background="@android:drawable/ic_menu_close_clear_cancel"
-                android:backgroundTint="#FFFFFF" />
+                android:backgroundTint="#FFFFFF"
+                android:onClick="exit" />
         </LinearLayout>
     </LinearLayout>
 </ScrollView>
