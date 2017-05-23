@@ -178,6 +178,9 @@
                 android:backgroundTint="#FFFFFF"
                 android:onClick="exit" />
         </LinearLayout>
+
     </LinearLayout>
+
+
 </ScrollView>
 

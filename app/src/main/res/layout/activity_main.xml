@@ -91,5 +91,15 @@
 
         </Button>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="15dp"
+            android:background="#FFFFFF"
+            android:padding="15dp"
+            android:text="This is the main screen"
+            android:textSize="20sp" />
+
     </LinearLayout>
 </ScrollView>

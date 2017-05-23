@@ -73,4 +73,15 @@
         android:layout_height="wrap_content"
         android:text="@string/pay_with_simplify" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="#FFFFFF"
+        android:padding="15dp"
+        android:text="This is the payment gateway integration and currently it's not working!"
+        android:textSize="20sp" />
+
 </LinearLayout>
