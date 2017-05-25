@@ -13,10 +13,6 @@ import android.widget.TextView;
 
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by Nightwish on 2017-05-11.
- */
-
 public class EAudioPlayer2 extends Activity {
 
     private static final int NOTIFICATION_EX = 1;
@@ -45,10 +41,14 @@ public class EAudioPlayer2 extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         //set the layout of the Activity
-        setContentView(R.layout.activity_eaudio_player);
+        setContentView(R.layout.activity_eaudio_player2);
+
         //initialize views
         initializeViews();
+
+
     }
 
     public void initializeViews() {

@@ -36,7 +36,6 @@
                 android:drawableBottom="@drawable/ic_music_note_white"
                 android:ellipsize="end"
                 android:maxLines="1"
-                android:onClick="openEAudioPlayer"
                 android:paddingBottom="10dp"
                 android:paddingLeft="10dp"
                 android:paddingTop="10dp"
@@ -111,7 +110,7 @@
             android:layout_marginTop="15dp"
             android:background="#FFFFFF"
             android:padding="15dp"
-            android:text="This is the Genres sorting!"
+            android:text="This is the Genres sorting! Using OnClickListeners"
             android:textSize="20sp" />
 
     </LinearLayout>

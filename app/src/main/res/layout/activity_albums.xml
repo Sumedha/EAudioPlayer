@@ -29,6 +29,7 @@
             android:padding="5dp">
 
             <LinearLayout
+                android:id="@+id/firstAlbum"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
@@ -43,7 +44,6 @@
                     android:drawablePadding="10dp"
                     android:ellipsize="end"
                     android:maxLines="1"
-                    android:onClick="openEAudioPlayer"
                     android:paddingBottom="10dp"
                     android:paddingLeft="10dp"
                     android:paddingTop="10dp"
@@ -60,6 +60,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/secondAlbum"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
@@ -77,7 +78,7 @@
                     android:paddingBottom="10dp"
                     android:paddingLeft="10dp"
                     android:paddingTop="10dp"
-                    android:text="A Reality Tour"
+                    android:text="Careless Whisper"
                     android:textColor="#FFFFFF"
                     android:textSize="15sp" />
 
@@ -85,7 +86,7 @@
                     android:id="@+id/musicEAudioPlayerCoverB"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/realitytour"
+                    android:background="@drawable/careless_whisper"
                     android:scaleType="centerCrop" />
             </LinearLayout>
 
@@ -100,6 +101,6 @@
         android:layout_marginBottom="15dp"
         android:background="#FFFFFF"
         android:padding="15dp"
-        android:text="This is the Albums section"
+        android:text="LinearLayouts setup to display Albums with two OnClickListeners, Both are working fine now!"
         android:textSize="20sp" />
 </LinearLayout>

@@ -22,13 +22,13 @@ public class SimplifyApplication extends Application {
             Bundle bundle = getPackageManager().getApplicationInfo(getPackageName(), PackageManager.GET_META_DATA).metaData;
 
             // init simplify api key
-            String apiKey = bundle.getString("com.simplify.android.sdk.apiKey", null);
+            String apiKey = bundle.getString("com.example.android.eaudioplayer.apiKey", null);
             if (apiKey != null) {
                 simplify.setApiKey(apiKey);
             }
 
             // init android pay public key
-            String androidPayPublicKey = bundle.getString("com.simplify.android.sdk.androidPayPublicKey", null);
+            String androidPayPublicKey = bundle.getString("com.example.android.eaudioplayer.androidPayPublicKey", null);
             if (androidPayPublicKey != null) {
                 simplify.setAndroidPayPublicKey(androidPayPublicKey);
             }

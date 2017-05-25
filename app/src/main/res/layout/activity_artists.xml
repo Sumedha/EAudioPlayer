@@ -113,7 +113,7 @@
         android:layout_marginBottom="15dp"
         android:background="#FFFFFF"
         android:padding="15dp"
-        android:text="This is the Artists section"
+        android:text="Implimented OnClickListeners to  two TextViews, Ed Sheeran and George Michael"
         android:textSize="20sp" />
 
 </LinearLayout>

@@ -37,7 +37,6 @@
                 android:layout_weight="1"
                 android:background="#565656"
                 android:drawableLeft="@drawable/ic_star_white"
-                android:onClick="openEAudioPlayer"
                 android:paddingBottom="10dp"
                 android:paddingLeft="10dp"
                 android:paddingTop="10dp"
@@ -108,7 +107,7 @@
         android:layout_marginTop="15dp"
         android:background="#FFFFFF"
         android:padding="15dp"
-        android:text="These are the users playlists!"
+        android:text="These are the users playlists! Using OnClickListeners (Only the first one is implemented)"
         android:textSize="20sp" />
 
 </LinearLayout>

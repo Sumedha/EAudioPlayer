@@ -31,7 +31,6 @@
             android:layout_height="match_parent"
             android:layout_margin="10dp"
             android:background="@color/colorPrimary"
-            android:onClick="openPlaylist"
             android:text="Playlists">
 
         </Button>
@@ -42,7 +41,6 @@
             android:layout_height="match_parent"
             android:layout_margin="10dp"
             android:background="@color/colorPrimary"
-            android:onClick="openArtists"
             android:text="Artists">
 
         </Button>
@@ -53,7 +51,6 @@
             android:layout_height="match_parent"
             android:layout_margin="10dp"
             android:background="@color/colorPrimary"
-            android:onClick="openAlbums"
             android:text="Albums">
 
         </Button>
@@ -64,7 +61,6 @@
             android:layout_height="match_parent"
             android:layout_margin="10dp"
             android:background="@color/colorPrimary"
-            android:onClick="openSongs"
             android:text="Songs">
 
         </Button>
@@ -75,7 +71,6 @@
             android:layout_height="match_parent"
             android:layout_margin="10dp"
             android:background="@color/colorPrimary"
-            android:onClick="openGenres"
             android:text="Genres">
 
         </Button>
@@ -86,7 +81,6 @@
             android:layout_height="match_parent"
             android:layout_margin="10dp"
             android:background="@color/colorPrimary"
-            android:onClick="openBuyMusic"
             android:text="Buy EAudio Package">
 
         </Button>
@@ -98,7 +92,7 @@
             android:layout_marginBottom="15dp"
             android:background="#FFFFFF"
             android:padding="15dp"
-            android:text="This is the main screen"
+            android:text="Buttons with OnClickListners and Android Support Widget Library Toolbar"
             android:textSize="20sp" />
 
     </LinearLayout>

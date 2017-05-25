@@ -24,14 +24,13 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/musicEAudioPlayer1"
+            android:id="@+id/musicEAudioSong1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="6dp"
             android:layout_marginStart="6dp"
             android:layout_marginTop="6dp"
             android:background="#56565650"
-            android:onClick="openEAudioPlayer"
             android:paddingBottom="3dp"
             android:paddingTop="6dp"
             android:text="@string/shape_of_you_ed_sheeran"
@@ -42,8 +41,8 @@
             android:id="@+id/songTimer1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignEnd="@id/musicEAudioPlayer1"
-            android:layout_alignRight="@id/musicEAudioPlayer1"
+            android:layout_alignEnd="@id/musicEAudioSong1"
+            android:layout_alignRight="@id/musicEAudioSong1"
             android:layout_marginRight="6dp"
             android:layout_marginTop="6dp"
             android:background="#56565650"
@@ -54,10 +53,10 @@
             android:textSize="15sp" />
 
         <TextView
-            android:id="@+id/musicEAudioPlayer2"
+            android:id="@+id/musicEAudioSong2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/musicEAudioPlayer1"
+            android:layout_below="@id/musicEAudioSong1"
             android:layout_marginLeft="6dp"
             android:layout_marginStart="6dp"
             android:layout_marginTop="6dp"
@@ -72,13 +71,12 @@
             android:id="@+id/songTimer2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignEnd="@id/musicEAudioPlayer2"
-            android:layout_alignRight="@id/musicEAudioPlayer2"
+            android:layout_alignEnd="@id/musicEAudioSong2"
+            android:layout_alignRight="@id/musicEAudioSong2"
             android:layout_below="@id/songTimer1"
             android:layout_marginRight="6dp"
             android:layout_marginTop="6dp"
             android:background="#56565650"
-            android:onClick="openEAudioPlayer2"
             android:paddingBottom="3dp"
             android:paddingTop="6dp"
             android:text="05:01"
@@ -94,6 +92,6 @@
         android:layout_marginTop="15dp"
         android:background="#FFFFFF"
         android:padding="15dp"
-        android:text="This is the list of all songs"
+        android:text="This is the list of all songs using 2 OnClickListeners for the 2 songs in the library"
         android:textSize="20sp" />
 </LinearLayout>

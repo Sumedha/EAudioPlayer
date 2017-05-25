@@ -10,4 +10,7 @@ public class BuyMusicActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_buy_music);
     }
+
+    //TODO Need to fix Simplify and GooglePay Api's and implement methods to map them accordingly.
 }
+
